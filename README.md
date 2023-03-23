@@ -1,7 +1,7 @@
 **Run Deliverables**
-    To setup environment RUN "pip3 install -r requirements.txt"
+    To setup environment RUN "pip3 install -r requirements.txt" \n
     convert_to_onnx.py | 
-        RUN: "python convert_to_onnx.py" you can change the pretrained model e.g: pytorch_model_weights.pth to your own model and file with onnx extension will be saved
+        RUN: "python convert_to_onnx.py" you can change the pretrained model e.g: pytorch_model_weights.pth to your own model and file with onnx  extension will be saved
     test_onnx.py |
         RUN: "python test_onnx.py" have to read two images in the code and it will classify them into the classes its trained on
     model.py |
