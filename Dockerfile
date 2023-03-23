@@ -13,7 +13,7 @@ ADD . .
 RUN pip3 install -r requirements.txt
 
 # We add the banana boilerplate here
-ADD test_server.py .
+# ADD test_server.py .
 
 # Add your model weight files 
 # (in this case we have a python script)

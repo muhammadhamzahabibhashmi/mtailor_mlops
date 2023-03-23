@@ -1,15 +1,3 @@
-# import torch 
-# import onnx 
-
-# # model = torch.load("pytorch_model_weights.pth")
-# mtailor = Classifier(BasicBlock, [2, 2, 2, 2])
-# mtailor.load_state_dict(torch.load("./pytorch_model_weights.pth"))
-# inp_ten = torch.randn(1,3,224,224,device="cuda")
-# onnx_model_path = "Converted_pytorch_model_weights.onnx"
-# torch.onnx.export(model,inp_ten,onnx_model_path,opset_version=11)
-
-
-
 from typing import Callable, List, Optional, Type, Union
 
 import torch

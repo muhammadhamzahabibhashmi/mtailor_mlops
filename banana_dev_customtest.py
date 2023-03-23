@@ -10,3 +10,4 @@ model_inputs = {'input_image': "n01667114_mud_turtle.JPEG"}
 # model_inputs = {YOUR_MODEL_INPUT_JSON} # anything you want to send to your model
 
 out = banana.run(api_key, model_key, model_inputs)
+print(out)
