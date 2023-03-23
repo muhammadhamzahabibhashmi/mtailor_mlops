@@ -9,3 +9,5 @@
         RUN: "python model.py" It has 3 functions we have to call load_model and inference and it will classify them as it is done in test_onnx.py file a bit generic
     test_server.py | 
         RUN: "python test_server.py" It is the API server code which reads image path and calls the above functions present in model.py 
+    banana_dev_customtest.py 
+        RUN "python banana_dev_customtest.py" It is sdk created for my deployed model
